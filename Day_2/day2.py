@@ -28,15 +28,32 @@
 # print(3*3+3/3-3)
 # print(3*(3+3)/3-3)
 
-bmi = 90/1.75**2
-print(bmi)
-print(int(bmi))
-print(round(bmi))
-print(round(bmi, 2))
+# bmi = 90/1.75**2
+# print(bmi)
+# print(int(bmi))
+# print(round(bmi))
+# print(round(bmi, 2))
 
 #f-Strings
-score = 0
-height = 1.8
-is_winning = True
-print(f"Your score is {score}, your height is {height} ")
+# score = 0
+# height = 1.8
+# is_winning = True
+# print(f"Your score is {score}, your height is {height} ")
+#
+# ######################################################################################
+#
+# print("Welcome to the tip calculator")
+#What was the total bill? $150
+#How much tip would you like to give? 10, 12, or 15? 12
+#How many people to split the bill? 5
+#Each person should pay: 33.67
+
+
+print("Welcome to the tip calculator")
+total_bill = float(input("What was the total bill? $"))
+tip_total = int(input("How much tip would you like to give? 10, 12, or 15?"))
+people = int(input("How many people to split the bill?"))
+split = ((total_bill * (tip_total/100+1)/people))
+split = round(split, 2)
+print(f"Each person should pay: ${split}")
 
