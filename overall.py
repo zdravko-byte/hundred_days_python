@@ -90,4 +90,12 @@ print(f"Each person should pay: ${split}")
 # else:
 #     print("You are too small. Sorry.")
 
+# a = 10 % 3
+# print(a)
+
+# number = int(input("Please enter a number\n"))
+# if number % 2 == 0:
+#     print("The number you entered is an even number")
+# else:
+#     print("The number you entered is an odd number")
 
